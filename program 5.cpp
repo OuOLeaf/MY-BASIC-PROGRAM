@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int blank[5],T,A=1;
+	int blank[5],T;
 	cin>>T;
     for(int i=1;i<=T;i++){
     	cin>>blank[1];
@@ -14,8 +14,7 @@ int main(){
     		
 		}
 		else if(blank[4]/blank[3]==blank[2]/blank[1]){
-			blank[5]==blank[4]*(blank[2]/blank[1]);
-			cout<<blank[1]<<' '<<blank[2]<<' '<<blank[3]<<' '<<blank[4]<<' '<<blank[5]<<endl;
+			cout<<blank[1]<<' '<<blank[2]<<' '<<blank[3]<<' '<<blank[4]<<' '<<blank[4]*(blank[2]/blank[1])<<endl;
 		
 		}
 	}
